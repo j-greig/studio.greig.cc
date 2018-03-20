@@ -1,19 +1,12 @@
 {
   "title": "Studio Greig",
   "titleShort": "Studio Greig",
-  "benefits": [
-    "Fast",
-    "Flexible",
-    "Fun",
-    "Free",
-    "Um... and fantastical?"
-  ],
   "clients": [
-    "Google",
-    "Facebook",
-    "Acme Inc.",
-    "Pixar",
-    "Nike",
-    "James Greig"
+    "Salt.sh",
+    "Think with Google",
+    "Genesis Beijing",
+    "CycleLove",
+    "Paul Calver",
+    "Dar"
   ]
 }
