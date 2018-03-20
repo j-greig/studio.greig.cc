@@ -1,0 +1,10 @@
+@font-face{
+	font-family: 'Visuelt';
+	src: url('visuelt_regular-web.eot');
+	src: url('visuelt_regular-web.eot?#iefix') format('embedded-opentype'),
+	     url('visuelt-regular.woff') format('woff'),
+}
+
+body {
+  font-family: "Visuelt", Helvetica, Arial, sans-serif !important;
+}
