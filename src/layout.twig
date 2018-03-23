@@ -11,21 +11,20 @@
     <script src="/js/script.js"></script>
 </head>
 
-<body
-  class="pa3 pa5-ns sans-serif dark-gray bg-washed-red"
-  data-tilt data-glare="true" data-tilt-reset="false" data-tilt-max="5" data-tilt-speed="2000"
-  style="overflow: hidden"
->
+<body class="pa3 pa5-ns sans-serif dark-gray bg-washed-red" style="overflow: hidden">
 
-<nav class="">
-  {% block nav %}
-    {% include '_partials/nav.twig' %}
-  {% endblock %}
-</nav>
+  <div class="vh-100" data-tilt="data-tilt" data-glare="true" data-tilt-reset="false" data-tilt-max="5" data-tilt-speed="2000" style="overflow: hidden">
+    <nav class="">
+      {% block nav %}
+        {% include '_partials/nav.twig' %}
+      {% endblock %}
+    </nav>
 
-<section class="mt5 js-tilt">
-  {% block page %}{% endblock %}
-</section>
+    <section class="mt5 js-tilt">
+      {% block page %}{% endblock %}
+    </section>
+
+  </div>
 
 <div class="db-ns fixed-ns z-999 bottom-1 right-1">
   <small>Built with <a class="dark-gray" href="https://github.com/j-greig/gulptwigtachyons">G/T/T</a></small>
