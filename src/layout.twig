@@ -11,7 +11,7 @@
     <script src="/js/script.js"></script>
 </head>
 
-<body class="pa3 pa5-ns sans-serif dark-gray bg-washed-red">
+<body class="pa3 pa5-ns sans-serif dark-gray bg-washed-red" data-tilt data-tilt data-tilt-max="10" data-tilt-speed="1000">
 
 <nav class="">
   {% block nav %}
@@ -19,7 +19,7 @@
   {% endblock %}
 </nav>
 
-<section class="mt5">
+<section class="mt5 js-tilt">
   {% block page %}{% endblock %}
 </section>
 
@@ -27,6 +27,7 @@
   <small>Built with <a class="dark-gray" href="https://github.com/j-greig/gulptwigtachyons">G/T/T</a></small>
 </div>
 
+<script type="text/javascript" src="/js/vanilla-tilt.min.js"></script>
 </body>
 
 </html>
